@@ -1,0 +1,70 @@
+
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("../image4/images\ \(1\).jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    .heart{
+      width: 100px;
+  height: 100px;
+  /* background: red; */
+  transition: width 2s;
+      transition: width 2s, height 4s;
+
+    }
+
+    .heart:hover {
+  width: 30px;
+  height: 30px;
+    }
+
+
+    .w3-quarter i{
+      width: 100px;
+  height: 100px;
+  /* background-color: #0000ff; */
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+    }
+
+    .w3-quarter i:hover{
+      /* background-color: #ffcccc; */
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+    }
+    .w3-card1{
+        /* width: 100% !important; */
+        /* transition: width 2s, height 4s;
+        transition: width 2s;
+        transition-delay: 4s;
+        transition-duration: 5s; */
+        /* width: 250px; */
+       width: 275px;
+        transition-property: width !important;
+        transition-duration: 2s !important;
+        border: 1px solid red;
+    }
+.w3-card1:hover{
+    width: 300px ;
+    /* transition-property: width !important;
+        transition-duration: 20s !important; */
+
+
+}

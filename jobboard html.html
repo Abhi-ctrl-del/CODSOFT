@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="joboard.css">
+    <script src="jobboard.js"></script>
+</head>
+<body>
+    <h1>Job Board</h1>
+    <form id="jobForm">
+        <label for="title">Job Title:</label>
+        <input type="text" id="title" name="title" required><br>
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+        <button type="submit">Add Job</button>
+    </form>
+    <h2>Available Jobs</h2>
+    <ul id="jobList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
